@@ -1,0 +1,8 @@
+{
+  "buildOptions": {
+    "module": "esnext",
+    "outDir": "./dist"
+  },
+  "include": ["."],
+  "exclude": ["node_modules", "dist"]
+}
