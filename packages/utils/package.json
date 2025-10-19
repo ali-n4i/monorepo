@@ -2,11 +2,16 @@
   "name": "utils",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc --build"
   },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": ["dist"],
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -1,8 +1,11 @@
 {
-  "buildOptions": {
-    "module": "esnext",
-    "outDir": "./dist"
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true, // Emit .d.ts files
+    "declarationMap": true, // For better IDE navigation
+    "composite": true, // Enables project references for faster builds
+    "declarationDir": "dist/types" // Optional: Separate types dir if needed
   },
-  "include": ["."],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
